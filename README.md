@@ -1,5 +1,5 @@
 # pythonLocalHTTPserver
 A basic local HTTP server in python
 
-To launch server, run:
+To launch server:
 `python3 main.py`
