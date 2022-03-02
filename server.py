@@ -8,6 +8,7 @@ class Server(BaseHTTPRequestHandler):
         try:
             split_path = os.path.splitext(self.path)
             request_extension = split_path[1]
+            f = ""
             if request_extension != ".py":
                 f = open(self.path[1:]).read()
                 self.send_response(200)
